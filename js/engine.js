@@ -65,12 +65,7 @@ var Engine = (function(global) {
     function init() {
         reset();
         lastTime = Date.now();
-        selectPlayer();
         main();
-    }
-
-    function selectPlayer() {
-
     }
 
     /* This function is called by main (our game loop) and itself calls all
@@ -142,12 +137,14 @@ var Engine = (function(global) {
                 ctx.drawImage(Resources.get(rowImages[row]), col * 101, row * 83);
             }
         }
+        // display Score
         ctx.strokeText('Score: ' + score, 20, 100);  
         ctx.fillText('Score: ' + score, 20, 100);  
-        ctx.font = "30px Arial";
-        ctx.fillStyle = "yellow";
+        ctx.font = '30px Arial';
+        ctx.fillStyle = 'yellow';
         ctx.lineWidth = 5;
-        ctx.strokeStyle ="black";
+        ctx.strokeStyle = 'black';
+        
         renderEntities();
     }
 
@@ -183,11 +180,7 @@ var Engine = (function(global) {
         'images/water-block.png',
         'images/grass-block.png',
         'images/enemy-bug.png',
-        'images/char-boy.png',
-        'images/char-cat-girl.png',
-        'images/char-horn-girl.png',
-        'images/char-pink-girl.png',
-        'images/char-princess-girl.png'
+        'images/char-horn-girl.png'
     ]);
     Resources.onReady(init);
 
