@@ -128,7 +128,7 @@ let cntEnemy = 500;
 // set the position and speed for each enemy
 for (let i = 0; i < cntEnemy; i++) {
     // random x-axis enemy's position
-    const xEnemyPos = -250 * getRndPosition(0, 350);
+    const xEnemyPos = -250 * getRndPosition(0, 500);
 
     // random y-axis enemy's position
     const randomYPos = getRndPosition(1, 3);
