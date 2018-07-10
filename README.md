@@ -32,21 +32,21 @@ The Classic Arcade Game project is an interactive game with JavaScript’s objec
 
 ## Detail of Classic Arcade Game
 
-In Classic Arcade Game, there are a Player and hunreds of Enemies(bug). The goal is the player reaches the water, without collide any enemies
+In Classic Arcade Game, there are a Player and hundreds of Enemies(bug). The goal is to reach the water, without collision with any enemies.
 
 ### The Game Process:-
 
 * The Player's position is set at the initial position
 
 * The user can control the Player by using the arrow keys on the keyboard as 
-  * if left arrow keys are pressed, the Player move to the left on the canvas 
-  * if right arrow keys are pressed, the Player move to the right on the canvas
-  * if up arrow keys are pressed, the Player move to the up on the canvas
-  * if down arrow keys are pressed, the Player move to the down on the canvas
+  * if left arrow key is pressed, the Player move to the left on the canvas 
+  * if right arrow key is pressed, the Player move to the right on the canvas
+  * if up arrow key is pressed, the Player move to the up on the canvas
+  * if down arrow key is pressed, the Player move to the down on the canvas
 
-* The user must aviod the Player collides with Enemies which move in different speed on the stone block
+* The user must control the player to avoid collision with Enemies, which move in different speed from left to right on the stone block. 
 
-* The score will increase each time the Player reaches the water and the Player moves back to initial position 
+* The score will increase by 100 each time the Player reaches the water and the Player moves back to initial position 
 
 * If the Player-Enemy collision happen, the Player moves back to initial position and score can be reset to 0  
 
