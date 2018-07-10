@@ -44,7 +44,7 @@ In Classic Arcade Game, there are a Player and hunreds of Enemies(bug). The goal
   * if up arrow keys are pressed, the Player move to the up on the canvas
   * if down arrow keys are pressed, the Player move to the down on the canvas
 
-* The user must aviod the Player collide with Enemies which move in different speed on the stone block
+* The user must aviod the Player collides with Enemies which move in different speed on the stone block
 
 * The score will increase each time the Player reaches the water and the Player moves back to initial position 
 
