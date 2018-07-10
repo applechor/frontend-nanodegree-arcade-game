@@ -46,9 +46,9 @@ In Classic Arcade Game, there are a Player and hunreds of Enemies(bug). The goal
 
 * The user must aviod the Player collide with Enemies which move in different speed on the stone block
 
-* The score will increase each time the player reaches the water
+* The score will increase each time the Player reaches the water and the Player moves back to initial position 
 
-* If the Player-Enemy collision happen, the Player move back to initial position and score can be reset to 0  
+* If the Player-Enemy collision happen, the Player moves back to initial position and score can be reset to 0  
 
 
 ## Reference Resource
